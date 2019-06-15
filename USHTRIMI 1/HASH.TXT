@@ -1,0 +1,35 @@
+
+====================================================================================================================================================================================================
+Pershkrimi i Algoritmit:
+Implementimi i Fjalorit duke perdorur Tabelen HASH.
+Ne fillim kthej fjalen ne nje numer int duke patur parasysh qe dy fjale te mos kene te njejtin numer.
+Krijoj nje tabele me lista te lidhura me pas bej modulin me madhesine e tabeles kundrejt numrit int te fjales per te llogaritur kodin hash.
+Fjala pastaj shtohet ne pozicionin e caktuar dhe vendoset ne fillim te listes,
+ne ate pozicion duke patur parasysh qe ne fillim te behete nje konroll nqs fjala gjendet ne liste.
+Afishimi behet me nje cikel qe bredh tabelen dhe afishon listat ne pozicionet e tabeles.
+
+
+
+Koha e ekzekutimit kur skedari kishte 100 fjale=0.15 sekonda
+Koha e ekzekutimit kur skedari kishte 1000 fjale  = 0.22 sekonda
+Koha e ekzekutimit kur skedari kishte 10000 fjale  = 1.2 sekonda
+Koha e ekzekutimit kur skedari kishte 100000 fjale  = 4.4 sekonda
+
+
+Kjo menyre e implementimit te fjalorit ishte me  efikase se Algoritmi Linked LIST.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Kompleksiteti:
+
+Shtimi ne rastin me te keq eshte n*EX pra rasti ku te gjitha fjalet vendosen ne nje pozicion te tabeles pasi duhet kontollluar nqs fjala ndodhet ne listen me ate pozicion
+Afishimin kerkon kohen n*EX ne rastin me te keq kur jan vendosur te gjitha ne nje pozicion
+Marrja e fjaleve nga skedari n*EX.
+
+n*EX1+n*EX2+n*EX3=n*(EX1+EX2+EX3) =>kompleksiteti eshte O(n)  ne rastin me te keq.
+
+ku:
+   EX1=koha ekzekutimit te opeacioneve te vlerdhenies . 
+   EX2=koha ekzekutimit te operacioneve te afishimit.
+   EX3=koha ekzekutimit te operacioneve te leximit nga skedari	.
+=====================================================================================================================================================================================================

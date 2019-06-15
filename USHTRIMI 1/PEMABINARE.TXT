@@ -1,0 +1,30 @@
+
+=====================================================================================================================================================================================================
+Pershkrimi:
+Implementimi i fjalorit duke perdorur Pemen e kerkimit binar.
+Per shtimin e elementeve duhet krahasuar madhesine e fjales me nyjen ku ndodhem,
+nqs eshte me e madhe vazhdoj tek fmija djathte i kesaj nyje dhe nqs eshte me e vogel vazhdoj tek femija i majte i kesaj nyje,
+perndryshe nqs jane te barabarta atehere nk e shtoj.
+Shtimi behet deri sa arrij ne nje gjethe.Pasi gjej se ne cilen ane te nyjes se fundit duhet vendosur kjo fjale e shtoj. 
+
+Koha e ekzekutimit kur skedari kishte 100 fjale=0.1 sekonda
+Koha e ekzekutimit kur skedari kishte 1000 fjale  = 0.18 sekonda
+Koha e ekzekutimit kur skedari kishte 10000 fjale  = 1.01 sekonda
+Koha e ekzekutimit kur skedari kishte 100000 fjale  = 3.9 sekonda
+
+
+Kjo menyre e implementimit te fjalorit eshte me efikase  se tabela Hash.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+LLogaritja e Kompleksitetit:
+Shtimi ne rastin me te keq eshte n*EX pasi mund te vijne elementet e radhitur dhe do te vendoseshin vetem ne njeren ane te pemes.
+Afishimi  kerkon kohen n*EX pasi do te afishohen te gjith elementet e pemes.
+Leximi nga skedari kerkon kohen n*EX  te leximit te nje fjale nga skedari.
+
+n*EX1+n*EX2+n*EX3=n*(EX1+EX2+EX3) =>kompleksiteti eshte O(n)  ne rastin me te keq te mundshem.
+
+ku:
+  EX1=koha ekzekutimit te opeacioneve te vlerdhenies . 
+  EX2=koha ekzekutimit te operacioneve te afishimit.
+  EX3=koha ekzekutimit te operacioneve te leximit nga skedari.
+======================================================================================================================================================================================================

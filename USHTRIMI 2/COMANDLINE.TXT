@@ -1,0 +1,3 @@
+Per te ekzekutuar programin nga COMAND PROMPT duhet te shkruajme ne command line addresen file location ku e kemi ruajtus  edhe te shkruajm komanden si ne vijim:
+
+(Crawler.jar   -   Linku i Faqes   -   Thellesia e kerkimit    -   Skedari  )       

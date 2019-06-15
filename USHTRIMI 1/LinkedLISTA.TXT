@@ -1,0 +1,30 @@
+
+===================================================================================================================================================================================================
+Pershkrimi i Algoritmit:
+Iplementimi i fjalorit me listat e lidhura.Shtimi behet gjithmone ne fillim te kokes,
+por para se te behet shtimi behet kontrolloi nqs fjala ndodhet ne liste.
+Me pas behet afishimi duke nisur nga koka listes deri ne fund te saj
+
+
+
+Koha e ekzekutimit kur skedari kishte 100 fjale=0.06 sekonda
+Koha e ekzekutimit kur skedari kishte 1000 fjale  = 0.2 sekonda
+Koha e ekzekutimit kur skedari kishte 10000 fjale  = 1.1 sekonda
+Koha e ekzekutimit kur skedari kishte 100000 fjale  = 11.4 sekonda
+
+
+Nga keto rezultatae arrijm ne perfundimin se kjo menyre este me pak efikasja .
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Kompleksiteti:
+
+Shtimi ne rastin me te keq eshte n*EX pasi do te kontrollohet gjithe lista nqs e permban celsin.
+Afishimin kerkon kohen n*EX.
+Marrja e fjaleve nga skedari n*EX:
+
+n*EX1+n*EX2+n*EX3=n*(EX1+EX2+EX3) =>kompleksiteti eshte O(n)
+
+ku:
+   EX1=koha ekzekutimit te opeacioneve te vlerdhenies.  
+   EX2=koha ekzekutimit te operacioneve te afishimit.
+   EX3=koha ekzekutimit te operacioneve te leximit nga skedari.
+======================================================================================================================================================================================================
